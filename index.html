@@ -15,13 +15,14 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- <link rel="Stylesheet" href="mystyles.css" type="text/css">  <<<fix this link and connect to your own css to override bs stylings.  This link goes in the file AFTER the bs cdn so it ovverides according to css cascading rules -->
 
-    <title>Hello, world!</title>
+    <title>bsPractice</title>
   </head>
   <body>
     <!-- Navbar starts here  -->
 
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark mb-5">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -83,11 +84,11 @@
     </nav>
     <!-- NAVBAR ENDS HERE -->
 
-    <!-- caroself starts here -->
+    <!-- carosel starts here -->
 
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide container mb-5"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
@@ -146,8 +147,12 @@
 
     <!-- BEgin welcome page contnet -->
     <div class="container">
-      <h1>Welcoe</h1>
-      <blockquote>cool quote</blockquote>
+      <h1>Look at All This Bootstrap!</h1>
+      <blockquote>
+        People have got to let their bodies breathe a little bit more. That's
+        the great thing about being a pompous, jumped-up rock god. There's
+        plenty of air around you. -Robert Plant
+      </blockquote>
       <p>
         <label
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -232,7 +237,6 @@
     </div>
     <!-- End storeis page  -->
 
-    <!-- Begin Contact -->
     <!-- Begin  Contact page-->
     <div class="container mt-5" id="letsconnect">
       <!-- Content here -->
