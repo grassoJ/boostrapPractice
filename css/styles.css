@@ -9,8 +9,15 @@ nav div ul li a {
   color: black;
 }
 
+#carouselExampleIndicators {
+  justify-content: center;
+  max-width: 50em;
+  max-height: 30em;
+}
+
 .carousel-inner {
-  max-height: 35em;
+  max-height: 30em;
+  max-width: 50em;
   border-radius: 1em;
 }
 
