@@ -1,0 +1,40 @@
+#nav {
+  background-color: rgb(255, 242, 217);
+}
+nav a {
+  color: black;
+}
+
+nav div ul li a {
+  color: black;
+}
+
+.carousel-inner {
+  max-height: 35em;
+}
+
+#quotes {
+  background-color: rgb(255, 242, 217);
+  padding: 2em;
+  border-radius: 2em;
+}
+
+#things {
+  background-color: rgb(255, 242, 217);
+  padding: 2em;
+  border-radius: 2em;
+}
+
+#letsconnect {
+  background-color: rgb(255, 242, 217);
+  padding: 2em;
+  border-radius: 2em;
+}
+
+body {
+  background-color: lavender;
+}
+
+.bSpace {
+  margin-bottom: 10em;
+}
