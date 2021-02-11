@@ -21,6 +21,9 @@ nav div ul li a {
   border-radius: 1em;
 }
 
+.raiseText {
+  margin-bottom: 3em;
+}
 #quotes {
   background-color: rgb(255, 242, 217);
   padding: 2em;
