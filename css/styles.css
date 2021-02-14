@@ -1,5 +1,5 @@
 #nav {
-  background-color: rgb(255, 242, 217);
+  background-color: lightgrey;
 }
 nav a {
   color: black;
@@ -30,13 +30,13 @@ nav div ul li a {
 }
 
 #quotes {
-  background-color: rgb(255, 242, 217);
+  background-color: rgb(255, 252, 246);
   padding: 2em;
   border-radius: 2em;
 }
 
 #things {
-  background-color: rgb(255, 242, 217);
+  background-color: rgb(255, 252, 246);
   padding: 2em;
   border-radius: 2em;
 }
@@ -48,7 +48,7 @@ nav div ul li a {
 }
 
 body {
-  background-color: lavender;
+  background-color: rgb(241, 241, 255);
 }
 
 .bSpace {
